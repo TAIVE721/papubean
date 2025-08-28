@@ -7,7 +7,7 @@ import com.neko.arc.services.ColourPrinter;
 
 @SpringBootApplication
 
-public class ColoursApplication {
+public class ColoursApplication implements CommandLineRunner {
 
 	private ColourPrinter colourPrinter;
 

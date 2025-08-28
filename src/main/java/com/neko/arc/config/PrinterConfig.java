@@ -11,6 +11,7 @@ import com.neko.arc.services.impl.ColourPrinterImpl;
 import com.neko.arc.services.impl.EnglishBluePrinter;
 import com.neko.arc.services.impl.EnglishGreenPrinter;
 import com.neko.arc.services.impl.EnglishRedPrinter;
+import com.neko.arc.services.impl.SpanishGreenPrinter;
 
 @Configuration
 public class PrinterConfig {
@@ -27,7 +28,7 @@ public class PrinterConfig {
 
     @Bean
     public GreenPrinter greenPrinter() {
-        return new EnglishGreenPrinter();
+        return new SpanishGreenPrinter();
     }
 
     @Bean
