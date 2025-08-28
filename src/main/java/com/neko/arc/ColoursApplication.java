@@ -22,7 +22,7 @@ public class ColoursApplication {
 	};
 
 	public void run(final String... args) {
-		colourPrinter.print();
+		System.out.println(colourPrinter.print());
 	}
 
 }
