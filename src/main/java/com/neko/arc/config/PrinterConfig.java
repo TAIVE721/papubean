@@ -8,26 +8,26 @@ import com.neko.arc.services.ColourPrinter;
 import com.neko.arc.services.GreenPrinter;
 import com.neko.arc.services.RedPrinter;
 import com.neko.arc.services.impl.ColourPrinterImpl;
-import com.neko.arc.services.impl.SpanishBluePrinter;
-import com.neko.arc.services.impl.SpanishGreenPrinter;
-import com.neko.arc.services.impl.SpanishRedPrinter;
+import com.neko.arc.services.impl.EnglishBluePrinter;
+import com.neko.arc.services.impl.EnglishGreenPrinter;
+import com.neko.arc.services.impl.EnglishRedPrinter;
 
 @Configuration
 public class PrinterConfig {
 
     @Bean
     public BluePrinter bluePrinter() {
-        return new SpanishBluePrinter();
+        return new EnglishBluePrinter();
     }
 
     @Bean
     public RedPrinter redPrinter() {
-        return new SpanishRedPrinter();
+        return new EnglishRedPrinter();
     }
 
     @Bean
     public GreenPrinter greenPrinter() {
-        return new SpanishGreenPrinter();
+        return new EnglishGreenPrinter();
     }
 
     @Bean

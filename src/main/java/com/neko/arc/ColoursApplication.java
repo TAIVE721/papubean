@@ -18,10 +18,10 @@ public class ColoursApplication {
 	public static void main(String[] args) {
 
 		SpringApplication.run(ColoursApplication.class, args);
+
 	};
 
 	public void run(final String... args) {
-
 		colourPrinter.print();
 	}
 
