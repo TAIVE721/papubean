@@ -7,7 +7,6 @@ import com.neko.arc.services.ColourPrinter;
 import com.neko.arc.services.GreenPrinter;
 import com.neko.arc.services.RedPrinter;
 
-@Component
 public class ColourPrinterImpl implements ColourPrinter {
 
     private RedPrinter redPrinter;
